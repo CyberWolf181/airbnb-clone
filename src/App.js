@@ -18,10 +18,8 @@ function App() {
   })
   return (
     <div className='App'> 
-        <Navbar />
-        <Navbar2 />
-        <Hero />
-        <Hero2 />
+        <Navbar />      
+        <Hero />       
         <section className='cards-list'>
           {cards}
         </section>
